@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Student Activity Website</title>
+  <link rel="stylesheet" href="ASSETS/CSS/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+</head>
+<body>
+   <!-- page loader (visible while navigating) -->
+  <div id="page-loader" class="page-loader hidden" aria-hidden="true">
+    <div class="loader-card" role="status" aria-label="Loading The Data Street">
+      <div class="spinner-wrap" aria-hidden="true">
+        <div class="ring" aria-hidden="true"></div>
+        <img src="ASSETS/IMG/Logo.jpeg" alt="The Data Street logo" class="loader-logo" />
+      </div>
+
+      <div class="loader-text" aria-hidden="true">
+        <strong class="loader-title">The Data Street</strong>
+        <div class="loader-sub">Preparing your experience…</div>
+
+        <div class="progress" aria-hidden="true">
+          <div class="progress-bar"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="HeroNav">
+
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <img src="ASSETS/IMG/Logo.jpeg" id="Logo">
+          <a href="index.html">The Data Street</a>
+        </div>
+        <div class="nav-menu" id="navMenu">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="media.html" class="nav-link">Media</a>
+          <a href="team.html" class="nav-link">Teams</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </div>
+        <button id="hamburger" class="hamburger" aria-label="Toggle menu" aria-controls="navMenu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="hero-content2">
+        <h1>Get In Touch</h1>
+        <p>Have questions? Want to collaborate? We'd love to hear from you!</p>
+      </div>
+    </section>
+
+  </div>
+
+ <section class="google-form-section">
+  <div class="container">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScGOpCF8ErJ1nImdag1yJqc75uLhy1K8VxGqM_hVNNUYHu_fQ/viewform?embedded=true" 
+            width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0" >
+      Loading…
+    </iframe>
+  </div>
+</section>
+
+  <!-- FAQ Section -->
+  <section class="faq-section">
+    <div class="container">
+      <h2>FAQ</h2>
+      <div class="faq-grid">
+        <div class="faq-item">
+          <h3>How can I join The Data Street?</h3>
+          <p>Fill out the contact form above or email us at info@thedatastreet.com. We'd love to have you join our community!</p>
+        </div>
+        <div class="faq-item">
+          <h3>What activities do you organize?</h3>
+          <p>We organize workshops, seminars, hackathons, networking events, and collaborative projects throughout the year.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Is there a membership fee?</h3>
+          <p>Most activities are free for students. Some specialized workshops may have a small fee to cover materials.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Can I volunteer or contribute?</h3>
+          <p>We welcome volunteers and contributors. Reach out via email to discuss how you can get involved.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-content">
+      <h3>The Data Street</h3>
+      <p>Empowering students through meaningful activities and collaboration.</p>
+
+      <!-- Social Icons -->
+      <div class="social-icons">
+        <a href="https://www.facebook.com/TheDataStreet" class="facebook" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.linkedin.com/company/the-data-street/" class="linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/the.data.street/" class="instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-links">
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="team.html">Teams</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 The Data Street. All rights reserved.</p>
+  </div>
+</footer>
+
+
+  <!-- fixed back-to-top button (bottom-left) -->
+  <a id="backToTopFixed" class="back-to-top-fixed" href="#home" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M12 5l-7 7h4v7h6v-7h4l-7-7z" fill="currentColor"/>
+    </svg>
+  </a>
+
+  <script src="https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.full.min.js"></script>
+  <script src="ASSETS/JS/script.js"></script>
+</body>
+</html>

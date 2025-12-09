@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Activities - The Data Street</title>
+  <link rel="stylesheet" href="ASSETS/CSS/styles.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- page loader (visible while navigating) -->
+  <div id="page-loader" class="page-loader hidden" aria-hidden="true">
+    <div class="loader-card" role="status" aria-label="Loading The Data Street">
+      <div class="spinner-wrap" aria-hidden="true">
+        <div class="ring" aria-hidden="true"></div>
+        <img src="ASSETS/IMG/Logo.jpeg" alt="The Data Street logo" class="loader-logo" />
+      </div>
+
+      <div class="loader-text" aria-hidden="true">
+        <strong class="loader-title">The Data Street</strong>
+        <div class="loader-sub">Preparing your experience…</div>
+
+        <div class="progress" aria-hidden="true">
+          <div class="progress-bar"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="HeroNav">
+
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <img src="ASSETS/IMG/Logo.jpeg" id="Logo">
+          <a href="index.html">The Data Street</a>
+        </div>
+        <div class="nav-menu" id="navMenu">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="media.html" class="nav-link">Media</a>
+          <a href="team.html" class="nav-link">Teams</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </div>
+        <button id="hamburger" class="hamburger" aria-label="Toggle menu" aria-controls="navMenu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </nav>
+
+  <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Where Data Meets Discovery</h1>
+          <p>
+            Join The Data Street community and explore student activities that inspire, challenge, and transform.
+            Collaborate with peers, develop skills, and make an impact.
+          </p>
+          <div class="hero-buttons">
+            <a href="team.html" class="btn btn-primary">Meet Our Team →</a>
+            <a href="contact.html" class="btn btn-secondary">Get Involved</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="ASSETS/IMG/diverse-students-collaborating-in-modern-classroom.jpg" alt="Student collaboration">
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <main>
+    <!-- About Us Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <h2>About Us</h2>
+          <p>
+            The Data Street is a vibrant community dedicated to fostering student engagement, learning, and
+            collaboration through meaningful activities and experiences.
+          </p>
+        </div>
+
+        <div class="cards-grid">
+          <div class="card">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                <circle cx="9" cy="7" r="4" />
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+              </svg>
+            </div>
+            <h3>Community First</h3>
+            <p>We believe in the power of community and the magic that happens when students come together.</p>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="9" />
+                <path d="M12 7v5l3 2" />
+                <line x1="12" y1="1" x2="12" y2="3" />
+                <line x1="12" y1="21" x2="12" y2="23" />
+              </svg>
+            </div>
+            <h3>Innovation Driven</h3>
+            <p>We encourage creative thinking, experimentation, and the exploration of new ideas.</p>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+              </svg>
+            </div>
+            <h3>Impact Focused</h3>
+            <p>Everything we do is designed to make a positive difference in students' lives.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Mission Section -->
+    <section class="mission">
+      <div class="container">
+        <div class="mission-content">
+          <div class="mission-image">
+            <img src="ASSETS/IMG/students-engaged-in-meaningful-projects-and-learni.jpg" alt="Our mission in action" />
+          </div>
+          <div class="mission-text">
+            <h2>Our Mission</h2>
+            <p>
+              To empower students through engaging activities, fostering a culture of collaboration, innovation, and
+              personal growth. We aim to create an environment where every student feels supported, inspired, and
+              equipped to achieve their goals.
+            </p>
+            <ul class="mission-list">
+              <li>
+                <span class="checkmark">✓</span>
+                <span>Organize impactful learning experiences</span>
+              </li>
+              <li>
+                <span class="checkmark">✓</span>
+                <span>Build a supportive and inclusive community</span>
+              </li>
+              <li>
+                <span class="checkmark">✓</span>
+                <span>Develop leadership and professional skills</span>
+              </li>
+              <li>
+                <span class="checkmark">✓</span>
+                <span>Create lasting relationships and networks</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Vision Section -->
+    <section class="vision">
+      <div class="container">
+        <div class="vision-content">
+          <div class="vision-text">
+            <h2>Our Vision</h2>
+            <p>
+              We envision a world where every student has access to opportunities for growth, connection, and positive
+              impact. The Data Street aspires to be the leading platform for student engagement, recognized for
+              fostering innovation, collaboration, and transformation.
+            </p>
+            <div class="vision-boxes">
+              <div class="vision-box">
+                <p class="vision-title">Lead by Example</p>
+                <p class="vision-desc">Setting standards for student-led initiatives</p>
+              </div>
+              <div class="vision-box">
+                <p class="vision-title">Global Reach</p>
+                <p class="vision-desc">Connecting students across boundaries and disciplines</p>
+              </div>
+              <div class="vision-box">
+                <p class="vision-title">Lasting Change</p>
+                <p class="vision-desc">Creating meaningful impact that extends beyond campus</p>
+              </div>
+            </div>
+          </div>
+          <div class="vision-image">
+            <img src="ASSETS/IMG/students-achieving-goals-and-celebrating-success-t.jpg" alt="Our vision for the future" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Our Partnerships Section -->
+<section class="partners">
+  <div class="container">
+    <div class="section-header">
+      <h2>Our Partnerships</h2>
+      <p>
+        We collaborate with leading organizations to bring valuable opportunities,
+        mentorship, and real-world experience to our students.
+      </p>
+    </div>
+
+    <div class="partners-grid">
+      <a class="partner-card" href="https://www.datacamp.com/" target="_blank" rel="noopener noreferrer" aria-label="Open DataCamp (opens in a new tab)">
+        <img src="ASSETS/IMG/DataCamp.webp" alt="Partner Logo">
+        <h3>datacamp</h3>
+        <p>Master in-demand skills in Python, ChatGPT, Power BI, and more through interactive courses.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+      <div class="cta-content">
+        <h2>Ready to Get Involved?</h2>
+        <p>Join The Data Street community and be part of something extraordinary</p>
+        <a href="contact.html" class="btn btn-white">Contact Us Today</a>
+      </div>
+    </section>
+  </main>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-content">
+      <h3>The Data Street</h3>
+      <p>Empowering students through meaningful activities and collaboration.</p>
+
+      <!-- Social Icons -->
+      <div class="social-icons">
+        <a href="https://www.facebook.com/TheDataStreet" class="facebook" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.linkedin.com/company/the-data-street/" class="linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/the.data.street/" class="instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-links">
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="team.html">Teams</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 The Data Street. All rights reserved.</p>
+  </div>
+</footer>
+
+
+  <!-- fixed back-to-top button (bottom-left) -->
+  <a id="backToTopFixed" class="back-to-top-fixed" href="#home" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M12 5l-7 7h4v7h6v-7h4l-7-7z" fill="currentColor"/>
+    </svg>
+  </a>
+
+  <script src="ASSETS/JS/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Team - Student Activity Website</title>
+  <link rel="stylesheet" href="ASSETS/CSS/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+</head>
+<body>
+  <!-- page loader (visible while navigating) -->
+  <div id="page-loader" class="page-loader hidden" aria-hidden="true">
+    <div class="loader-card" role="status" aria-label="Loading The Data Street">
+      <div class="spinner-wrap" aria-hidden="true">
+        <div class="ring" aria-hidden="true"></div>
+        <img src="ASSETS/IMG/Logo.jpeg" alt="The Data Street logo" class="loader-logo" />
+      </div>
+
+      <div class="loader-text" aria-hidden="true">
+        <strong class="loader-title">The Data Street</strong>
+        <div class="loader-sub">Preparing your experience…</div>
+
+        <div class="progress" aria-hidden="true">
+          <div class="progress-bar"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="HeroNav">
+
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <img src="ASSETS/IMG/Logo.jpeg" id="Logo">
+          <a href="index.html">The Data Street</a>
+        </div>
+        <div class="nav-menu" id="navMenu">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="media.html" class="nav-link">Media</a>
+          <a href="team.html" class="nav-link">Teams</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </div>
+        <button id="hamburger" class="hamburger" aria-label="Toggle menu" aria-controls="navMenu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="hero-content2">
+        <h1>Our Team</h1>
+        <p>Meet the dedicated students who lead The Data Street and drive our mission forward</p>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Team Members Section -->
+  <section class="team-section">
+    <div class="container">
+
+      <div class="directorates-accordion">
+        <!-- Directorate 1: Projects -->
+        <div class="accordion-item">
+          <button class="accordion-header" aria-expanded="false" aria-controls="projects-content">
+            <div class="accordion-icon">
+              <span class="material-symbols-outlined">work</span>
+            </div>
+
+            <div class="accordion-title-wrap">
+              <h3>PROJECTS</h3>
+              <p>Where innovative student ideas become measurable community outcomes.</p>
+            </div>
+            <span class="accordion-toggle">+</span>
+          </button>
+
+          <div class="accordion-content" id="projects-content">
+            <div class="accordion-body">
+              <p>Our Changemakers: The Projects team is the heartbeat of The Data Street, which turns big ideas into impactful realities. Our team is responsible for researching and identifying societal needs, exploring innovative solutions to solve challenges, and transforming ideas into real sustainable entrepreneurial projects that leave an impact on our society.</p>
+              <div class="directorate-specs">
+                <p><strong>Team Specifications:</strong></p>
+                <ul>
+                  <li>Communication skills</li>
+                  <li>Research skills</li>
+                  <li>Flexibility</li>
+                  <li>Problem-solving skills</li>
+                  <li>Negotiation skills</li>
+                  <li>Stakeholders management</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Directorate 2: Human Resources -->
+        <div class="accordion-item">
+          <button class="accordion-header" aria-expanded="false" aria-controls="hr-content">
+            <div class="accordion-icon">
+              <div class="accordion-icon">
+                <span class="material-symbols-outlined">groups</span>
+              </div>
+            </div>
+            <div class="accordion-title-wrap">
+              <h3>HUMAN RESOURCES</h3>
+              <p>Focusing on performance development and learning.</p>
+            </div>
+            <span class="accordion-toggle">+</span>
+          </button>
+
+          <div class="accordion-content" id="hr-content">
+            <div class="accordion-body">
+              <p>The Human Resources team nurtures our greatest asset—our people. We focus on talent development, team culture, and creating an environment where every member can thrive and grow.</p>
+              <div class="directorate-specs">
+                <p><strong>Team Specifications:</strong></p>
+                <ul>
+                  <li>Performance development</li>
+                  <li>Talent management</li>
+                  <li>Team culture</li>
+                  <li>Learning & development</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- NEW TEAMS (added) -->
+        <div class="accordion-item">
+          <button class="accordion-header" aria-expanded="false" aria-controls="analytics-content">
+            <div class="accordion-icon">
+              <span class="material-symbols-outlined">analytics</span>
+            </div>
+            <div class="accordion-title-wrap">
+              <h3>DATA ANALYTICS</h3>
+              <p>Data analysis, dashboards and insights.</p>
+            </div>
+            <span class="accordion-toggle">+</span>
+          </button>
+          <div class="accordion-content" id="analytics-content">
+            <div class="accordion-body">
+              <p>Focus on cleaning, analyzing and visualizing data to drive decisions.</p>
+              <div class="directorate-specs">
+                <p><strong>Team Specifications:</strong></p>
+                <ul>
+                  <li>Data cleaning & preparation</li>
+                  <li>Statistical analysis</li>
+                  <li>Dashboard creation</li>
+                  <li>Insight generation</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header" aria-expanded="false" aria-controls="ai-content">
+            <div class="accordion-icon">
+              <span class="material-symbols-outlined">smart_toy</span>
+            </div>
+            <div class="accordion-title-wrap">
+              <h3>AI TEAM</h3>
+              <p>Machine learning, models and experiments.</p>
+            </div>
+            <span class="accordion-toggle">+</span>
+          </button>
+          <div class="accordion-content" id="ai-content">
+            <div class="accordion-body">
+              <p>Exploration of ML, NLP and AI-driven projects and research.</p>
+              <div class="directorate-specs">
+                <p><strong>Team Specifications:</strong></p>
+                <ul>
+                  <li>Machine learning algorithms</li>
+                  <li>Model training & evaluation</li>
+                  <li>NLP & deep learning</li>
+                  <li>Experimental design</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header" aria-expanded="false" aria-controls="excel-content">
+            <div class="accordion-icon">
+              <span class="material-symbols-outlined">table_chart</span>
+            </div>
+            <div class="accordion-title-wrap">
+              <h3>EXCEL TEAM</h3>
+              <p>Advanced Excel, automation and reporting.</p>
+            </div>
+            <span class="accordion-toggle">+</span>
+          </button>
+          <div class="accordion-content" id="excel-content">
+            <div class="accordion-body">
+              <p>Skills: formulas, pivot tables, Power Query and automation.</p>
+              <div class="directorate-specs">
+                <p><strong>Team Specifications:</strong></p>
+                <ul>
+                  <li>Advanced formulas & macros</li>
+                  <li>Pivot tables & analysis</li>
+                  <li>Power Query automation</li>
+                  <li>Report building</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header" aria-expanded="false" aria-controls="sql-content">
+            <div class="accordion-icon">
+              <span class="material-symbols-outlined">storage</span>
+            </div>
+            <div class="accordion-title-wrap">
+              <h3>SQL TEAM</h3>
+              <p>Database querying, optimization and ETL.</p>
+            </div>
+            <span class="accordion-toggle">+</span>
+          </button>
+          <div class="accordion-content" id="sql-content">
+            <div class="accordion-body">
+              <p>Work with relational databases, joins, indexing and pipeline design.</p>
+              <div class="directorate-specs">
+                <p><strong>Team Specifications:</strong></p>
+                <ul>
+                  <li>Complex query writing</li>
+                  <li>Database design & optimization</li>
+                  <li>ETL pipeline development</li>
+                  <li>Performance tuning</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header" aria-expanded="false" aria-controls="powerbi-content">
+            <div class="accordion-icon">
+              <span class="material-symbols-outlined">monitoring</span>
+            </div>
+            <div class="accordion-title-wrap">
+              <h3>POWER BI</h3>
+              <p>Dashboards and business intelligence.</p>
+            </div>
+            <span class="accordion-toggle">+</span>
+          </button>
+          <div class="accordion-content" id="powerbi-content">
+            <div class="accordion-body">
+              <p>Building interactive reports, data models and visual storytelling.</p>
+              <div class="directorate-specs">
+                <p><strong>Team Specifications:</strong></p>
+                <ul>
+                  <li>Dashboard design & development</li>
+                  <li>Data modeling</li>
+                  <li>Interactive visualizations</li>
+                  <li>Business metrics & KPIs</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header" aria-expanded="false" aria-controls="python-content">
+            <div class="accordion-icon">
+              <span class="material-symbols-outlined">terminal</span>
+            </div>
+            <div class="accordion-title-wrap">
+              <h3>PYTHON TEAM</h3>
+              <p>Scripting, automation and data projects.</p>
+            </div>
+            <span class="accordion-toggle">+</span>
+          </button>
+          <div class="accordion-content" id="python-content">
+            <div class="accordion-body">
+              <p>Focus on Python tooling, data pipelines and automation scripts.</p>
+              <div class="directorate-specs">
+                <p><strong>Team Specifications:</strong></p>
+                <ul>
+                  <li>Python scripting & development</li>
+                  <li>Data pipeline automation</li>
+                  <li>Library expertise (pandas, numpy)</li>
+                  <li>Web scraping & APIs</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header" aria-expanded="false" aria-controls="marketing-content">
+            <div class="accordion-icon">
+              <span class="material-symbols-outlined">campaign</span>
+            </div>
+            <div class="accordion-title-wrap">
+              <h3>MARKETING TEAM</h3>
+              <p>Campaigns, outreach and growth.</p>
+            </div>
+            <span class="accordion-toggle">+</span>
+          </button>
+          <div class="accordion-content" id="marketing-content">
+            <div class="accordion-body">
+              <p>Brand campaigns, social strategy and member engagement work.</p>
+              <div class="directorate-specs">
+                <p><strong>Team Specifications:</strong></p>
+                <ul>
+                  <li>Social media strategy</li>
+                  <li>Campaign planning & execution</li>
+                  <li>Audience engagement</li>
+                  <li>Content marketing</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header" aria-expanded="false" aria-controls="design-content">
+            <div class="accordion-icon">
+              <span class="material-symbols-outlined">brush</span>
+            </div>
+            <div class="accordion-title-wrap">
+              <h3>GRAPHIC DESIGN TEAM</h3>
+              <p>Visual design, posters and branding.</p>
+            </div>
+            <span class="accordion-toggle">+</span>
+          </button>
+          <div class="accordion-content" id="design-content">
+            <div class="accordion-body">
+              <p>Design assets, event visuals and branding guidelines.</p>
+              <div class="directorate-specs">
+                <p><strong>Team Specifications:</strong></p>
+                <ul>
+                  <li>Visual design & branding</li>
+                  <li>Poster & asset creation</li>
+                  <li>UI/UX principles</li>
+                  <li>Design tool expertise</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header" aria-expanded="false" aria-controls="tableau-content">
+            <div class="accordion-icon">
+              <span class="material-symbols-outlined">insights</span>
+            </div>
+            <div class="accordion-title-wrap">
+              <h3>TABLEAU TEAM</h3>
+              <p>Advanced visualization and dashboarding.</p>
+            </div>
+            <span class="accordion-toggle">+</span>
+          </button>
+          <div class="accordion-content" id="tableau-content">
+            <div class="accordion-body">
+              <p>Creating polished dashboards and visual analytics with Tableau.</p>
+              <div class="directorate-specs">
+                <p><strong>Team Specifications:</strong></p>
+                <ul>
+                  <li>Advanced visualization techniques</li>
+                  <li>Dashboard architecture</li>
+                  <li>Data storytelling</li>
+                  <li>Tableau best practices</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end NEW TEAMS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Values Section -->
+  <section class="values-section">
+    <div class="container">
+      <h2>What We Value</h2>
+      <div class="values-grid">
+        <div class="value-card">
+          <div class="value-icon">💡</div>
+          <h3>Innovation</h3>
+          <p>Embracing new ideas and bold solutions</p>
+        </div>
+        <div class="value-card">
+          <div class="value-icon">🤝</div>
+          <h3>Teamwork</h3>
+          <p>Working together toward shared goals</p>
+        </div>
+        <div class="value-card">
+          <div class="value-icon">⭐</div>
+          <h3>Excellence</h3>
+          <p>Striving for the highest standards</p>
+        </div>
+        <div class="value-card">
+          <div class="value-icon">🌱</div>
+          <h3>Growth</h3>
+          <p>Continuous learning and development</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-content">
+      <h3>The Data Street</h3>
+      <p>Empowering students through meaningful activities and collaboration.</p>
+
+      <!-- Social Icons -->
+      <div class="social-icons">
+        <a href="https://www.facebook.com/TheDataStreet" class="facebook" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.linkedin.com/company/the-data-street/" class="linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/the.data.street/" class="instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-links">
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="team.html">Teams</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 The Data Street. All rights reserved.</p>
+  </div>
+</footer>
+
+  <!-- back-to-top button (bottom-left) -->
+  <a id="backToTopFixed" class="back-to-top-fixed" href="#home" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M12 5l-7 7h4v7h6v-7h4l-7-7z" fill="currentColor"/>
+    </svg>
+  </a>
+
+  <script src="ASSETS/JS/script.js"></script>
+</body>
+</html>
